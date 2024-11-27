@@ -1,0 +1,29 @@
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        text-decoration: nome;
+    }
+    nav{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background-color: black;
+    }
+    .menu{
+        display:inline flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        color: aliceblue;
+        padding-right: 5px;
+        font-size: 1.5rem;
+        transition: 2s;
+    }
+    .menu:hover{
+        background-image: linear-gradient(45deg, cyan, pink);
+        padding: 10px;
+        border-radius: 10pt;
+        transition: 2s;
+    }
