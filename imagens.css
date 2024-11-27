@@ -2,10 +2,10 @@ img{
     width: 300px;
     aspect-ratio: 4/3;
     border-radius: 20pt;
-    filter: blur(15px);
+
 }
 img:hover{
-    filter:blur(0);
+    
     width: 500px;
     transition: 2s;
 }
